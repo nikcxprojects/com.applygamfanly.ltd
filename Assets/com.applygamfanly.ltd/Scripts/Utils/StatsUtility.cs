@@ -7,4 +7,10 @@ public static class StatsUtility
         get => PlayerPrefs.GetInt("level", 1);
         set => PlayerPrefs.SetInt("level", value);
     }
+
+    public static int BestScore
+    {
+        get => PlayerPrefs.GetInt("bestscore", 0);
+        set => PlayerPrefs.SetInt("bestscore", value);
+    }
 }
