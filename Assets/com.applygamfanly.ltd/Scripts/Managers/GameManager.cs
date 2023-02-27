@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
 
         score = 0;
         scoreText.text = $"{score}";
-        finalScoreText.text = $"SCORE {score}";
+        finalScoreText.text = $"{score}";
     }
 
     public void Pause(bool IsPause)
