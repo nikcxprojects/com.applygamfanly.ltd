@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467444882298",
+    "project_id": "fobnet-5106d",
+    "storage_bucket": "fobnet-5106d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467444882298:android:d6f1a3ac6a122cc41514c3",
+        "android_client_info": {
+          "package_name": "com.applygamfanly.ltd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467444882298-77ra31a8rt6fmtjhbuq1qidrki2c8qaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoQdjnwfCa2RhEEPiSoktXH-22mHnD73o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467444882298-77ra31a8rt6fmtjhbuq1qidrki2c8qaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
