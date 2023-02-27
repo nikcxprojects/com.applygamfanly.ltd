@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
             ball.transform.localPosition = transform.localPosition;
 
             Vector2 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position);
-            ball.AddForce(direction.normalized * 20, ForceMode2D.Impulse);
+            ball.AddForce(direction.normalized * 8, ForceMode2D.Impulse);
 
             Destroy(ball.gameObject, waitTime);
             Invoke(nameof(EnableRender), waitTime);
