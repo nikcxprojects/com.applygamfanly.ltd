@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        Friend.OnCollided += () =>
+        Trigger.OnCollided += () =>
         {
             score += Random.Range(10, 35);
 
