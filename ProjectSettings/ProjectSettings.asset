@@ -13,8 +13,8 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: "1xbet: \u0441\u0442\u0430\u0432\u043A\u0438 \u043D\u0430 \u0441\u043F\u043E\u0440\u0442
-    \u0431\u043A"
+  productName: "\u0424\u043E\u043D\u0431\u0435\u0442 \u0421\u0442\u0430\u0432\u043A\u0438
+    \u043D\u0430 \u0421\u043F\u043E\u0440\u0442"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -155,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.developxb.ltd
+    Android: com.applygamfanly.ltd
     Standalone: com.DefaultCompany.2DProject
   buildNumber:
     Standalone: 0
@@ -250,7 +250,7 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: user.keystore'
-  AndroidKeyaliasName: jwsd
+  AndroidKeyaliasName: ggrgs
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1

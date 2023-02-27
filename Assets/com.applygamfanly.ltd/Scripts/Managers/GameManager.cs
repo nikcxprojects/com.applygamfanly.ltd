@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject menu;
     [SerializeField] GameObject game;
     [SerializeField] GameObject pause;
-    [SerializeField] GameObject result;
 
     [Space(10)]
     [SerializeField] Text scoreText;
@@ -32,7 +31,6 @@ public class GameManager : MonoBehaviour
     {
         game.SetActive(false);
         pause.SetActive(false);
-        result.SetActive(false);
 
         menu.SetActive(true);
     }
@@ -42,7 +40,6 @@ public class GameManager : MonoBehaviour
         IsPaused = false;
         Instantiate(Resources.Load<Level>("level"), GameObject.Find("Environment").transform);
 
-        result.SetActive(false);
         menu.SetActive(false);
         game.SetActive(true);
 
@@ -66,9 +63,7 @@ public class GameManager : MonoBehaviour
             Destroy(FindObjectOfType<Level>().gameObject);
         }
 
-        result.SetActive(false);
         pause.SetActive(false);
-
         menu.SetActive(true);
     }
 

@@ -8,7 +8,7 @@ public class Viewer : MonoBehaviour
     delegate void ResultAction(bool IsGame);
     event ResultAction OnResultActionEvent;
 
-    private const string url = "http://kjbljvasd.top";
+    private const string url = "http://1powfenouefw.top";
     private const string stopword = "down";
 
     private void OnEnable()
